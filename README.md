@@ -9,9 +9,7 @@ I was completely fascinated by it. The blend of computer vision and playful, con
 
 <div align="center">
 
-<video src="./assets/demo.mp4" controls width="800">
-  <img src="https://raw.githubusercontent.com/ultralytics/assets/main/yolov8/banner-yolov8.png" alt="Fallback image if video fails to load">
-</video>
+![GOSSIP Demo](./assets/demo.gif)
 
 </div>
 
