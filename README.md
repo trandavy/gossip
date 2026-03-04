@@ -5,7 +5,7 @@
 
 Recently, while visiting a museum in London, I came across an interactive art installation that captured live video of pedestrians walking below, detecting them in real-time and assigning humorous, internal-monologue-style speech bubbles over their heads as they moved. 
 
-I was completely fascinated by it. The blend of computer vision and playful, context-free humor made it genuinely fun to watch. I thought it would be an excellent engineering challenge to recreate the exact same system from scratch—so I built **GOSSIP**.
+I was completely fascinated by it. The blend of computer vision and playful, context-free humor made it genuinely fun to watch. I thought it would be an excellent engineering challenge to recreate the exact same system from scratch so I built **GOSSIP**.
 
 <div align="center">
 
@@ -18,7 +18,7 @@ I was completely fascinated by it. The blend of computer vision and playful, con
 A massive priority for this project was to prove that you **do not need expensive hardware** or top-tier GPUs to run playful, stable computer vision installations. 
 
 This repository leverages entirely CPU-friendly techniques to maintain a visually pleasing frame rate:
-*   **Nano-scale Object Inference:** GOSSIP runs Ultralytics YOLOv8 Nano (`yolov8n`), the smallest and fastest model of the family. Instead of doing inference on every single frame, we run it asynchronously every 3rd frame—slashing hardware requirement by ~66% while sacrificing almost no visual fidelity for pedestrians.
+*   **Nano-scale Object Inference:** GOSSIP runs Ultralytics YOLOv8 Nano (`yolov8n`), the smallest and fastest model of the family. Instead of doing inference on every single frame, we run it asynchronously every 3rd frame slashing hardware requirement by ~66% while sacrificing almost no visual fidelity for pedestrians.
 *   **Lightweight Identity Tracking:** Instead of using heavy spatial-temporal sequence models (like DeepSORT), it uses mathematically cheap Intersection-over-Union (IoU) overlap physics. If two bounding boxes overlap across consecutive frames, it assumes they are the same person.
 *   **The "Director" Cooldown System:** Rather than bombarding the screen by detecting *everyone*, GOSSIP's algorithmic `Director` intentionally filters candidates to maintain order. It establishes maximum limits (e.g. max 3 people), ensures candidates have been consistently tracked for 10 frames before promotion, and enforces global quote cooldowns so jokes never repeat too frequently.
 *   **Anti-Aliased Typography:** Unlike standard, jittery OpenCV annotations, GOSSIP maps bounding boxes through an Exponential Moving Average (EMA) to float the UI smoothly, rendering everything using clean `Pillow` alpha-composited fonts.
