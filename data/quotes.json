@@ -1,0 +1,129 @@
+{
+  "personalities": [
+    {
+      "name": "the_philosopher",
+      "quotes": [
+        "Why are we all walking?",
+        "Time is a flat circle.",
+        "To be, or to just go get coffee?",
+        "I think, therefore I am late.",
+        "We are all just moving pixels.",
+        "What if the destination is an illusion?",
+        "Is free will why I chose these shoes?",
+        "Does the sidewalk feel us walking?",
+        "I wonder what my cat is dreaming.",
+        "We inhabit space, but do we master it?",
+        "If I stop, does the world keep spinning?",
+        "A journey of a thousand miles is mostly exhausting.",
+        "Which came first, the pedestrian or the pavement?",
+        "The mind wanders faster than the feet.",
+        "Perhaps the true destination is the friends we made?",
+        "Are we walking, or is the Earth rolling under us?",
+        "I am an NPC in my own life.",
+        "To step, or not to step.",
+        "The gravity here is exquisite today.",
+        "We are merely ghosts in the machine."
+      ]
+    },
+    {
+      "name": "the_impatient",
+      "quotes": [
+        "Walk faster!",
+        "Out of my way.",
+        "I have places to be.",
+        "Green means go!",
+        "Slow walkers are a crime.",
+        "Move it, people!",
+        "Is everyone walking in slow motion today?",
+        "I am officially running late.",
+        "Can we hurry this up?",
+        "My kingdom for an empty sidewalk.",
+        "I don't have time for this.",
+        "Why is everyone so relaxed?",
+        "Step aside!",
+        "This is not a scenic stroll.",
+        "Chop chop!",
+        "If I walk any faster I'll take off.",
+        "Some of us have deadlines.",
+        "Excuse me. Excuse me! EXCUSE ME.",
+        "Just keep moving forward.",
+        "Can you walk and text at the same time?"
+      ]
+    },
+    {
+      "name": "the_tourist",
+      "quotes": [
+        "Is that the Eiffel Tower?",
+        "I'm lost.",
+        "Where is the nearest bathroom?",
+        "This place is amazing!",
+        "Could you take my picture?",
+        "My GPS says to walk right into a brick wall.",
+        "Where can I buy a cheap magnet?",
+        "Is this the famous spot?",
+        "Wow, look at that architecture!",
+        "Do you accept foreign currency?",
+        "I think we just walked in a circle.",
+        "Hold on, let me check the map.",
+        "I love the vibe of this city.",
+        "Where did all these pigeons come from?",
+        "Should we stop for gelato?",
+        "Everything looks prettier on vacation.",
+        "My feet are absolutely killing me.",
+        "What historical event happened right here?",
+        "Can someone point me to the museum?",
+        "I need a souvenir for my mom."
+      ]
+    },
+    {
+      "name": "the_absurdist",
+      "quotes": [
+        "I left the oven on.",
+        "Birds aren't real.",
+        "My shoes are talking to me.",
+        "I am a simulation.",
+        "Banana.",
+        "Do you think the clouds are judging us?",
+        "I should have worn my tin foil hat.",
+        "Gravity is just a suggestion.",
+        "I am secretly three toddlers in a trench coat.",
+        "If I blink too fast, I travel in time.",
+        "Don't look now, but reality is melting.",
+        "I swallowed a bee once. Or did it swallow me?",
+        "My left knee predicts the stock market.",
+        "What if today is actually yesterday?",
+        "Beep boop. Executing walking protocol.",
+        "I left my existential dread in my other pants.",
+        "Nothing is real except the crunch of autumn leaves.",
+        "Which dimension is this again? The 4th?",
+        "I am communicating with the mothership.",
+        "Invisible lasers! Dodge them!"
+      ]
+    },
+    {
+      "name": "the_narrator",
+      "quotes": [
+        "And so, they continued their brave journey.",
+        "Little did they know, their shoes were untied.",
+        "A solitary figure emerges from the concrete jungle.",
+        "Watch closely as the human seeks a caffeinated beverage.",
+        "Our protagonist marches forward with determination.",
+        "They paused, entirely unsure of their life choices.",
+        "Another day, another thousands steps recorded.",
+        "The subject appears to be breathing air.",
+        "Plot twist: They forgot their keys.",
+        "Cue dramatic background music.",
+        "They walk as if the camera is watching.",
+        "A triumph of bipedal locomotion.",
+        "Suddenly, a wild thought appeared!",
+        "They are desperately pretending to be busy.",
+        "Notice the majestic stride of the modern human.",
+        "The sidewalk was long, but their resolve was longer.",
+        "They wondered if anyone could hear their internal monologue.",
+        "End of chapter three: The Commute.",
+        "They walk with the swagger of a minor local celebrity.",
+        "Behold, the pinnacle of human evolution."
+      ]
+    }
+  ]
+}
